@@ -77,7 +77,6 @@ h1 {
 ul li {
     font-size: 12px;
     list-style: square;
-  }
 }
 
 label {
@@ -192,8 +191,4 @@ img {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-}
-
-a {
-  color: white;
 }
