@@ -1,0 +1,44 @@
+.section-one {
+  background-image: url("http://www.publicdomainpictures.net/pictures/150000/velka/green-abstract-line-background.jpg");
+  padding-top: 75px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 2em;
+  background-size: cover;
+}
+
+.section-two {
+  background-image: url("https://ak9.picdn.net/shutterstock/videos/13766282/thumb/12.jpg");
+  padding-top: 75px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 2em;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+  height: 250px;
+}
+
+.section-three {
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/14656753/thumb/1.jpg");
+  padding-top: 75px;
+  padding-bottom: 25px;
+  height: auto;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 2em;
+  background-size: cover;
+}

@@ -1,9 +1,33 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
-<iframe
-  width="600"
-  height="450"
-  frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC36kW71lvbw4E4cFhuShJYSpJIfvcqnNA 
-    &q=Hostel+Detroit,Detroit+MI" allowfullscreen>
-</iframe>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="../home/noodle_genius/app/assets/scaffold_jess.css">
+  </head>
+  <body>
+    <h1> Noodle Genius </h1>
+    <img src="http://www.jslfoods.com/NoodleClub/img/chef-yaki-lg.png">
+    <section class="section-one">
+
+    <h1> Check out the Noodle Genius' Menu </h1>
+    <div class="link_to_bs">
+    <%= link_to 'Menu', menu_items_path %>
+    </div>
+
+    </section>
+
+    <section class="section-two">
+    <h1> Order Online Now!</h1>
+    <div class="link_to_bs">
+    <%= link_to 'Order', new_order_path %>
+    </div>
+
+    <section class="section-three">
+    <h1> Find Our Resturant </h1>
+    <iframe
+      width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyC36kW71lvbw4E4cFhuShJYSpJIfvcqnNA&q=Hostel+Detroit,Detroit+MI" allowfullscreen>
+    </iframe>
+    </section>
+  </body>
+</html>

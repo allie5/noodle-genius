@@ -1,0 +1,199 @@
+body {
+  background-color: lightgreen;
+  color: #333;
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+}
+
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+a {
+  color: #000;
+
+  &:visited {
+    color: #666;
+  }
+
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
+}
+
+th {
+  padding-bottom: 5px;
+}
+
+td {
+  padding: 0 5px 7px;
+  font-weight: bold;
+}
+
+div {
+  &.field, &.actions {
+    margin-bottom: 10px;
+  }
+}
+
+#notice {
+  color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 18px;
+  margin: -7px -7px 0;
+  background-color: #840d1f;
+  color: #fff;
+}
+
+ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+label {
+  display: block;
+  font-size: 16px;
+}
+
+.wrapper {
+  margin-right: 10em;
+  margin-left: 10em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+}
+
+
+input[type="text"]{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="number"]{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.section-one {
+  background-image: url("http://www.publicdomainpictures.net/pictures/150000/velka/green-abstract-line-background.jpg");
+  padding-top: 75px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 2em;
+  background-size: cover;
+}
+
+.section-two {
+  background-image: url("https://ak9.picdn.net/shutterstock/videos/13766282/thumb/12.jpg");
+  padding-top: 75px;
+  height: 300px;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 2em;
+  background-size: cover;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+  height: 250px;
+}
+
+.section-three {
+  background-image: url("https://ak2.picdn.net/shutterstock/videos/14656753/thumb/1.jpg");
+  padding-top: 75px;
+  padding-bottom: 25px;
+  height: auto;
+  color: white;
+  text-align: center;
+  background-color: grey;
+  background-blend-mode: multiply;
+  font-size: 2em;
+  background-size: cover;
+}
+
+.link_to_bs {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}

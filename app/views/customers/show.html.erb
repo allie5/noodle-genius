@@ -15,15 +15,5 @@
   <%= @customer.address %>
 </p>
 
-<p>
-  <strong>Notes:</strong>
-  <%= @customer.notes %>
-</p>
-
-<p>
-  <strong>Sub total:</strong>
-  <%= @customer.sub_total %>
-</p>
-
 <%= link_to 'Edit', edit_customer_path(@customer) %> |
 <%= link_to 'Back', customers_path %>
